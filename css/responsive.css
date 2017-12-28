@@ -56,7 +56,7 @@ px      68    160    252    344    436    528    620    712    */
   #utility-2 .block {
     padding-top: 0;
   }
-  #subscribe .form-inline .form-group input {
+  #contacts .form-inline .form-group input {
     width: 100%;
   }
   footer .footer-logo {
@@ -77,7 +77,7 @@ px      68    160    252    */
   .footer-logo img {
     width: 100px;
   }
-  #subscribe .form-inline .form-group input {
+  #contacts .form-inline .form-group input {
     width: 290px;
   }
   #feature {
@@ -107,7 +107,7 @@ px      68    160    252    */
   #feature .title {
     text-align: center;
   }
-  #subscribe .form-inline .form-group input {
+  #contacts .form-inline .form-group input {
     width: 100%;
   }
   footer .footer-logo {
