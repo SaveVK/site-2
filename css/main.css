@@ -114,55 +114,57 @@ header .social-info li a:hover {
   color: #f48e5c;
 }
 
-#banner {
+#head {
   background-size: cover;
   position: relative;
   padding: 100px 0;
 }
 
-#banner .app-img {
+#head .app-img {
   padding-top: 10px;
 }
 
-#banner .block>p {
+#head .block>p {
   margin-bottom: 65px;
 }
 
-#banner .block {
+#head .block {
   padding-top: 10px;
 }
 
-#banner .block h1 {
+#head .block h1 {
   margin-bottom: 18px;
   line-height: 55px;
   color: #262b31;
   font-weight: 300;
 }
 
-#banner .block p {
+#head .block p {
   font-size: 20px;
   color: #999;
   font-weight: 300;
 }
 
-#banner .block .download-btn li {
+#head .block .download-btn li {
   display: inline-block;
+  width: 100%;
 }
 
-#banner .block .download-btn li a {
+#head .block .download-btn li a {
   color: #fff;
   border: none;
   border-radius: 0;
   padding: 10px 28px 13px;
   font-size: 18px;
+  width: 100%
 }
 
-#banner .block .download-btn li a i {
+#head .block .download-btn li a i {
   margin-right: 10px;
   font-size: 20px;
 }
 
-#banner .block .download-btn li .btn-windows {
+#head .block .download-btn li .btn-windows {
   background: #00afec;
   border: 1px solid transparent;
   -webkit-transition: .2s all;
@@ -170,7 +172,7 @@ header .social-info li a:hover {
   transition: .2s all;
 }
 
-#banner .block .download-btn li .btn-windows:hover {
+#head .block .download-btn li .btn-windows:hover {
   color: #00afec;
   background: #fff;
   border: 1px solid #00afec;
@@ -315,79 +317,123 @@ header .social-info li a:hover {
   color: #666;
 }
 
-#feature {
+#gallery {
   padding: 10px 0;
 }
 
-#feature .title {
+#gallery .title {
   font-weight: 300;
 }
 
-#feature .feature-item {
-  margin-top: 40px;
+#gallery .gallery-item {
+  margin-top: 30px;
 }
 
-#feature .feature-item:first-child {
+#gallery .gallery-item:first-child {
   margin-top: 0;
 }
 
-#feature .feature-item .icon {
+#gallery .gallery-item .icon {
   padding-right: 22px;
 }
 
-#feature .feature-item .icon i {
+#gallery .gallery-item .icon i {
   color: #f48e5c;
   font-size: 30px;
 }
 
-#feature .feature-item h4 {
+#gallery .gallery-item h4 {
   color: #f48e5c;
   margin-bottom: 0;
   font-weight: 300;
   margin-bottom: 8px;
 }
 
-#feature .feature-item p {
+#gallery .gallery-item p {
   color: #9499a2;
 }
 
-#feature .block {
+#gallery .block {
   text-align: center;
 }
 
-#feature .block img {
+#gallery .block img {
   display: inline-block;
 }
 
-#utility {
+#how_to_install {
+  padding: 10px 0;
+}
+
+#how_to_install .title {
+  font-weight: 300;
+}
+
+#how_to_install .gallery-item {
+  margin-top: 30px;
+}
+
+#how_to_install .gallery-item:first-child {
+  margin-top: 0;
+}
+
+#how_to_install .gallery-item .icon {
+  padding-right: 22px;
+}
+
+#how_to_install .gallery-item .icon i {
+  color: #f48e5c;
+  font-size: 30px;
+}
+
+#how_to_install .gallery-item h4 {
+  color: #f48e5c;
+  margin-bottom: 0;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+#how_to_install .gallery-item p {
+  color: #9499a2;
+}
+
+#how_to_install .block {
+  text-align: center;
+}
+
+#how_to_install .block img {
+  display: inline-block;
+}
+
+#advantages {
   background: #f6f6f7;
   padding: 20px 0 30px 0;
 }
 
-#utility .block h2 {
+#advantages .block h2 {
   padding-top: 70px;
   color: #444;
 }
 
-#utility .block p {
+#advantages .block p {
   line-height: 32px;
   color: #7c828b;
   font-size: 16px;
 }
 
-#utility-2 {
+#advantages-2 {
   padding: 40px 0 30px 0;
 }
 
-#utility-2 .block {
+#advantages-2 .block {
   padding-top: 0px;
 }
 
-#utility-2 .block h2 {
+#advantages-2 .block h2 {
   color: #666;
 }
 
-#utility-2 .block p {
+#advantages-2 .block p {
   line-height: 32px;
   color: #9AA0A9;
   font-size: 16px;
@@ -556,4 +602,130 @@ footer p {
 #dignity {
   background-color: #f6f6f7;
   padding: 0 0 30px 0;
+}
+
+.liButton {
+  margin-top: 25px;
+}
+
+.timer_text {
+  font-size: 20px;
+  color: #999;
+  font-weight: 300;
+}
+
+.timer_text2 {
+  font-size: 30px;
+  color: #999;
+  font-weight: 300;
+  text-align: center;
+}
+
+.timer_text2 span {
+  font-size: 35px;
+  color: red;
+  font-weight: 700;
+}
+
+.timer {
+  border-radius: 2px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .2);
+  display: inline-block;
+  /* margin: 25px; */
+  padding: 25px 30px;
+}
+
+.timer__item {
+  display: inline-block;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.timer__item+.timer__item {
+  margin-left: 20px;
+}
+
+.timer__value,
+.timer__label {
+  display: block;
+}
+
+.timer__value {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.timer__label {
+  color: #777;
+  font-size: 14px;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.charact__img {
+  margin: 0 0 0 auto;
+  width: 85.83333%
+}
+
+.charact__img img {
+  display: block;
+  width: 100%;
+  height: auto
+}
+
+.charact__link-wrap {
+  width: 60%;
+  margin: 25px auto 0
+}
+
+.charact__card-link {
+  margin: 35px 0 20px 0;
+  display: block;
+  font-family: SFUIDisplayUltralight, sans-serif;
+  color: red;
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 700;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative
+}
+
+.charact__card-link span {
+  position: relative;
+  top: -25px;
+  position: relative;
+  left: 43px;
+}
+
+.charact__card-link::before {
+  content: '440 AED';
+  position: absolute;
+  font-family: SFUIDisplayUltralight, sans-serif;
+  color: #383a3a;
+  font-size: .75em;
+  line-height: 1;
+  letter-spacing: 0;
+  z-index: 1;
+  bottom: 0;
+  left: 53%;
+}
+
+.charact__card-link::after {
+  content: '';
+  height: 2px;
+  width: 102px;
+  border-bottom: 1px solid #383a3a;
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  z-index: 2;
+  -webkit-transform: rotate(-12deg);
+  -ms-transform: rotate(-12deg);
+  transform: rotate(-12deg);
 }

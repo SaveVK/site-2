@@ -44,12 +44,12 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-xs-6 col-sm-3">
+                <div class="col-md-2 col-xs-2 col-sm-2">
                     <a href="#" class="logo">
                         <img src="images/logo.png" alt="">
                     </a>
                 </div>
-                <div class="col-md-6 col-xs-6 col-sm-6">
+                <div class="col-md-8 col-xs-8 col-sm-8">
                     <div class="menu">
                         <nav class="navbar navbar-default" role="navigation">
                             <div class="container-fluid">
@@ -67,16 +67,19 @@
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul class="nav navbar-nav">
                                         <li>
-                                            <a href="#banner">Home</a>
+                                            <a href="#head">Home</a>
                                         </li>
                                         <li>
                                             <a href="#service">Service</a>
                                         </li>
                                         <li>
-                                            <a href="#feature">Feature</a>
+                                            <a href="#gallery">Gallery</a>
                                         </li>
                                         <li>
-                                            <a href="#utility">Utility</a>
+                                            <a href="#how_to_install">How to install</a>
+                                        </li>
+                                        <li>
+                                            <a href="#advantages">Advantages</a>
                                         </li>
                                         <li>
                                             <a href="#contacts">Contacts</a>
@@ -90,7 +93,7 @@
                         </nav>
                     </div>
                 </div>
-                <div class="col-md-3 col-xs-12 col-sm-3">
+                <div class="col-md-2 col-xs-2 col-sm-2">
                     <ul class="social-info">
                         <li>
                             <a href="#">
@@ -113,7 +116,7 @@
         </div>
     </header>
 
-    <section id="banner" class="wow fadeInUp">
+    <section id="head" class="wow fadeInUp">
         <div class="container">
             <div class="row">
 
@@ -126,20 +129,56 @@
                 <div class="col-md-6 col-md-offset-1 col-sm-6">
                     <div class="block">
                         <h1>
-                            Beautiful, simple and easy to use App Plus.
+                            Title
                         </h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nemo, corporis ipsum soluta nobis ea!
                         </p>
+                        <div id="js-timer" class="timer" role="timer" aria-label="A timer, counting down to {{eventName}}" data-endtime="2018-01-03 07:30:00">
+                            <div class="timer_text2">
+                                Only
+                                <span> NOW!</span>
+                                <br>
+                                <span> 50% </span> discount
+                            </div>
+                            <div class="charact__card-link">
+                                <span>220AED</span>
+                            </div>
+                            <div class="timer_text2">
+                                Offer expires in:
+                            </div>
+                            <span class="timer__item" id="timer-days">
+                                <span class="timer__value">{{days}}</span>
+                                <span class="timer__label">Days</span>
+                            </span>
 
-                        <ul class="download-btn">
-                            <li>
-                                <a href="#contacts" class="btn btn-default btn-windows text-uppercase">
-                                    <i class="fa fa-pencil"></i>Order now</a>
-                            </li>
-                        </ul>
+                            <span class="timer__item" id="timer-hours">
+                                <span class="timer__value">{{hours}}</span>
+                                <span class="timer__label">
+                                    Hours
+                                </span>
+                            </span>
 
+                            <span class="timer__item" id="timer-minutes">
+                                <span class="timer__value">{{minutes}}</span>
+                                <span class="timer__label">
+                                    Minutes
+                                </span>
+                            </span>
 
+                            <span class="timer__item" id="timer-seconds">
+                                <span class="timer__value">{{seconds}}</span>
+                                <span class="timer__label">
+                                    Seconds
+                                </span>
+                            </span>
+                            <ul class="download-btn liButton">
+                                <li>
+                                    <a href="#contacts" class="btn btn-default btn-windows text-uppercase">
+                                        <i class="fa fa-pencil"></i>Order now!</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -245,13 +284,13 @@
     </section>
 
 
-    <section id="feature">
+    <section id="how_to_install">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay=".8s">
                     <h2 class="title">How to install and wire backup camera</h2>
 
-                    <div class="feature-item">
+                    <div class="gallery-item">
 
                         <div class="media">
                             <div class="pull-left icon" href="#">
@@ -264,7 +303,7 @@
                         </div>
                     </div>
 
-                    <div class="feature-item">
+                    <div class="gallery-item">
 
                         <div class="media">
                             <div class="pull-left icon" href="#">
@@ -277,7 +316,7 @@
                         </div>
                     </div>
 
-                    <div class="feature-item">
+                    <div class="gallery-item">
 
                         <div class="media">
                             <div class="pull-left icon" href="#">
@@ -290,7 +329,7 @@
                         </div>
                     </div>
 
-                    <div class="feature-item">
+                    <div class="gallery-item">
 
                         <div class="media">
                             <div class="pull-left icon" href="#">
@@ -303,7 +342,7 @@
                         </div>
                     </div>
 
-                    <div class="feature-item">
+                    <div class="gallery-item">
 
                         <div class="media">
                             <div class="pull-left icon" href="#">
@@ -316,7 +355,7 @@
                         </div>
                     </div>
 
-                    <div class="feature-item">
+                    <div class="gallery-item">
 
                         <div class="media">
                             <div class="pull-left icon" href="#">
@@ -339,8 +378,7 @@
         </div>
     </section>
 
-
-    <section id="utility">
+    <section id="advantages">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
@@ -361,7 +399,7 @@
     </section>
 
 
-    <section id="utility-2">
+    <section id="advantages-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay=".8s">
@@ -386,7 +424,7 @@
 
     <section id="dignity">
         <div class="container">
-                <h2 class="title">HeadText</h2>
+            <h2 class="title">HeadText</h2>
             <div class="row economs_blocks">
                 <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay=".8s">
                     <div class="block block_econom">
@@ -409,8 +447,8 @@
                             <img alt="" src="images/img8.jpg">
                             <ul>
                                 <li>
-                                    <img alt="" src="images/ico11.png">The DVR solves both these problems, it is invisible in the mirror. This device uses the technology of
-                                    video information Full HD PROF, so the image is as clear as possible.</li>
+                                    <img alt="" src="images/ico11.png">The DVR solves both these problems, it is invisible in the mirror. This device uses the
+                                    technology of video information Full HD PROF, so the image is as clear as possible.</li>
                             </ul>
                         </p>
                     </div>
@@ -474,5 +512,7 @@
     </footer>
 
 </body>
+
+<script src="js/timer.js"></script>
 
 </html>

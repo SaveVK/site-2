@@ -12,23 +12,23 @@ px      68    160    252    344    436    528    620    712    */
   .menu .navbar-default .navbar-nav > li > a {
     padding: 5px 7px;
   }
-  #banner .block .download-btn li {
+  #head .block .download-btn li {
     width: 100%;
     margin-bottom: 5px;
   }
-  #banner .block .download-btn li a {
+  #head .block .download-btn li a {
     display: block;
   }
-  #banner {
+  #head {
     padding: 40px 0;
   }
-  #banner h1 {
+  #head h1 {
     font-size: 40px;
   }
-  #banner .block img {
+  #head .block img {
     padding-top: 80px;
   }
-  #banner .block > p {
+  #head .block > p {
     margin-bottom: 20px;
   }
   #service .block {
@@ -37,23 +37,23 @@ px      68    160    252    344    436    528    620    712    */
   #service .service-wrapper {
     padding: 80px 0;
   }
-  #feature {
+  #gallery {
     padding: 30px 0;
   }
-  #feature .title {
+  #gallery .title {
     margin-top: 0;
     margin-bottom: 30px;
   }
-  #feature .block img {
+  #gallery .block img {
     padding-top: 40px;
   }
-  #feature .feature-item {
+  #gallery .gallery-item {
     margin-top: 10px;
   }
-  #utility .block h2 {
+  #how_to_install .block h2 {
     padding-top: 15px;
   }
-  #utility-2 .block {
+  #how_to_install-2 .block {
     padding-top: 0;
   }
   #contacts .form-inline .form-group input {
@@ -80,20 +80,20 @@ px      68    160    252    */
   #contacts .form-inline .form-group input {
     width: 290px;
   }
-  #feature {
+  #gallery {
     padding: 30px 0;
   }
-  #banner .block .download-btn li {
+  #head .block .download-btn li {
     width: 100%;
     margin-bottom: 5px;
   }
-  #banner .block .download-btn li a {
+  #head .block .download-btn li a {
     display: block;
   }
-  #banner {
+  #head {
     padding: 40px 0;
   }
-  #banner h1 {
+  #head h1 {
     font-size: 40px;
   }
   #service .service-wrapper {
@@ -102,9 +102,9 @@ px      68    160    252    */
   #service .block {
     margin-bottom: 20px;
   }
-  #utility .block h2,
-  #utility-2 .block h2,
-  #feature .title {
+  #how_to_install .block h2,
+  #how_to_install-2 .block h2,
+  #gallery .title {
     text-align: center;
   }
   #contacts .form-inline .form-group input {
