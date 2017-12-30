@@ -87,7 +87,10 @@ header {
 
 header .logo {
   display: inline-block;
-  margin-top: 8px;
+}
+
+.logoImg {
+  width: 37px;
 }
 
 header .social-info {
@@ -679,12 +682,13 @@ footer p {
   margin: 25px auto 0
 }
 
+
 .charact__card-link {
-  margin: 35px 0 20px 0;
+  margin: 24px 0 20px 0;
   display: block;
   font-family: SFUIDisplayUltralight, sans-serif;
   color: red;
-  font-size: 30px;
+  font-size: 35px;
   line-height: 1.5;
   letter-spacing: 0;
   font-weight: 700;
@@ -693,14 +697,14 @@ footer p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  position: relative
+  position: relative;
 }
 
 .charact__card-link span {
   position: relative;
-  top: -25px;
+  top: 17px;
   position: relative;
-  left: 43px;
+  left: 97px;
 }
 
 .charact__card-link::before {
@@ -712,20 +716,70 @@ footer p {
   line-height: 1;
   letter-spacing: 0;
   z-index: 1;
-  bottom: 0;
-  left: 53%;
+  bottom: 30px;
+  left: 13%;
 }
 
 .charact__card-link::after {
   content: '';
   height: 2px;
-  width: 102px;
+  width: 120px;
   border-bottom: 1px solid #383a3a;
   position: absolute;
-  bottom: 16px;
-  left: 50%;
+  bottom: 44px;
+  left: 9%;
   z-index: 2;
   -webkit-transform: rotate(-12deg);
   -ms-transform: rotate(-12deg);
   transform: rotate(-12deg);
+}
+
+.col-md-5 {
+  width: 20%;
+}
+
+.car_d {
+  width: 65%; 
+  margin-top: 25px; 
+  margin-left: 8px
+}
+
+.list {
+  width: 620px;
+  margin: 32px 0 0 42px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.list li {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  width: 292px;
+  margin-bottom: 11px;
+  position: relative;
+}
+
+.list li:before {
+  content: url(../images/ico3.png);
+  position: absolute;
+  left: -20px;
+  top: 0px;
+}
+
+li .fa-angle-right {
+  color: #5aba5a;
+  margin-right: 5px;
+}
+
+.centerText {
+  text-align: center;
+}
+/* 
+.centerText h3 {
+  color: #ffcb79;
+} */
+
+.offset {
+  margin: 0 0 0 42px;
 }

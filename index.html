@@ -46,7 +46,7 @@
             <div class="row">
                 <div class="col-md-2 col-xs-2 col-sm-2">
                     <a href="#" class="logo">
-                        <img src="images/logo.png" alt="">
+                        <img class="logoImg" src="images/logo.png" alt="">
                     </a>
                 </div>
                 <div class="col-md-8 col-xs-8 col-sm-8">
@@ -128,13 +128,18 @@
                 </div>
                 <div class="col-md-6 col-md-offset-1 col-sm-6">
                     <div class="block">
-                        <h1>
-                            Title
-                        </h1>
+                        <div class="centerText">
+                            <h3>Get rid of fines and accidents on the road with the help of:</h3>
+                            <h1>
+                                CAR DVR MIRROR
+                            </h1>
+                        </div>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nemo, corporis ipsum soluta nobis ea!
                         </p>
-                        <div id="js-timer" class="timer" role="timer" aria-label="A timer, counting down to {{eventName}}" data-endtime="2018-01-03 07:30:00">
+                        <div id="js-timer" class="timer" role="timer" aria-label="A timer, counting down to {{eventName}}" data-endtime="2018-12-01 07:30:00">
+                            <img src="images/discount_sign.png" style="float: right; width: 30%;" alt="">
+
                             <div class="timer_text2">
                                 Only
                                 <span> NOW!</span>
@@ -142,7 +147,7 @@
                                 <span> 50% </span> discount
                             </div>
                             <div class="charact__card-link">
-                                <span>220AED</span>
+                                <span>220 AED</span>
                             </div>
                             <div class="timer_text2">
                                 Offer expires in:
@@ -189,41 +194,56 @@
         <div class="container">
             <div class="service-wrapper">
                 <div class="row">
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-5 col-sm-6">
                         <div class="block wow fadeInRight" data-wow-delay="1s">
                             <div class="icon">
                                 <i class="fa fa-truck"></i>
                             </div>
 
                             <h3>Fast delivery</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, amet.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-5 col-sm-6">
                         <div class="block wow fadeInRight" data-wow-delay="1.3s">
                             <div class="icon">
                                 <i class="fa fa-credit-card"></i>
                             </div>
                             <h3>Payment upon receipt</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, amet.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-5 col-sm-6">
                         <div class="block wow fadeInRight" data-wow-delay="1.6s">
                             <div class="icon">
                                 <i class="fa fa-shield"></i>
                             </div>
                             <h3>Warranty 1 year</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, amet.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-5 col-sm-6">
                         <div class="block wow fadeInRight" data-wow-delay="1.9s">
                             <div class="icon">
                                 <i class="fa fa-certificate"></i>
                             </div>
                             <h3>All products are certified</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, amet.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-6" onmouseover="hover();" onmouseout="unhover();">
+                        <div class="block wow fadeInRight" data-wow-delay="1.9s">
+                            <div class="icon">
+                                <img class="car_d" id="car_d" src="images/car_d1.png" alt="">
+                                <script>
+                                    function hover() {
+                                        var some = document.getElementById('car_d');
+                                        some.setAttribute('src', 'images/car_d2.png');
+                                    }
+
+                                    function unhover() {
+                                        var some = document.getElementById('car_d');
+                                        some.setAttribute('src', 'images/car_d1.png');
+                                    }
+                                </script>
+                            </div>
+                            <h3>Free delivery</h3>
                         </div>
                     </div>
                 </div>
@@ -386,11 +406,33 @@
                 </div>
                 <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-delay=".8s">
                     <div class="block">
-                        <h2>HeadText</h2>
+                        <div class="offset">
+                            <h2>CAR DVR MIRROR</h2>
+                            <h4>MULTIFUNCTIONAL REAR VIEW MIRROR</h4>
+                        </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com
-                            Neque porro quisqua
+                            <ul class="list">
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i> Front and Rear View</li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i> Camera Motion</li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i> Monitor Screen 4.3</li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i> Full HD 1080р </li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i> Anti-glare function</li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i> SD card slot up to 32 Gb</li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i> Front wide-angle camera</li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i> Monitor turn off</li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i> G-sensor</li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i> Easy installation</li>
+                            </ul>
                         </p>
                     </div>
                 </div>
@@ -479,13 +521,17 @@
                     <div class="contact-form">
                         <form action="mail.php" method="POST">
                             <div class="col-md-12 form-control-div">
-                                <input type="text" class="form-control" placeholder="Name" name="user_name">
+                                <input type="text" class="form-control" placeholder="Your Name" name="user_name">
                             </div>
                             <div class="col-md-12 form-control-div">
-                                <input type="email" class="form-control" placeholder="Email" name="user_email">
+                                <input type="number" class="form-control" placeholder="Your phone number" name="user_number">
                             </div>
                             <div class="col-md-12 form-control-div">
-                                <textarea class="form-control" placeholder="Message" rows="4" name="user_message"></textarea>
+                                <input type="email" class="form-control" placeholder="Your email" name="user_email">
+                            </div>
+                            <div class="col-md-12 form-control-div">
+                                <input type="text" class="form-control" placeholder="Your location/adress" name="user_location">
+                                </textarea>
                             </div>
                             <div class="col-md-12">
                                 <input type="submit" class=" form-control text-uppercase sendButton" value="order now">
@@ -502,9 +548,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <a class="footer-logo" href="#">
-                        <img class="img-responsive" src="images/footer-logo.png" alt="">
+                        <img class="img-responsive" src="images/logo.png" alt="">
                     </a>
-                    <p>Copyright © 2014 CompanyName</p>
+                    <p>Copyright © 2017 (5starshop)</p>
 
                 </div>
             </div>
