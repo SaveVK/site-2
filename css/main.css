@@ -999,3 +999,82 @@ li .fa-angle-right {
   left: 82%;
   top: -10%;
 }
+
+/*** Section Testimonial CSS ***/
+
+section.testimonials{
+  min-height: 250px;
+  display: block;
+  position: relative;
+  padding: 20px 0 50px;
+}
+
+section.testimonials::after{
+  content: "";
+  background: url("../images/testimonials_bg.jpg");
+  opacity: .4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;  
+}
+
+.padtb20{
+  padding: 0 20px;
+}
+
+section.testimonials .item{
+  color: #555;  
+}
+
+section.testimonials .item button{
+  color: #A28753;
+  padding: 0;
+  font-size: 46px;
+  margin-bottom: 0;
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+
+section.testimonials .item img{
+  width: 90px;
+  margin: 0 auto 15px;
+  display: block;
+  border: 3px solid #999;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+
+section.testimonials .item h4{
+  margin-top: 0;
+  color: #444;
+}
+
+section.testimonials .item .testimonial_subtitle{
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+section.testimonials .testimonial_btn {
+  background-color: transparent;
+  border: 2px solid #A28753;
+  border-radius: 50px;
+  color: #A28753 !important;
+  font-size: 20px;
+  padding: 8px 20px;
+  -webkit-transition: .5s; /* For Safari 3.1 to 6.0 */
+  transition: .5s;
+}
+
+section.testimonials .testimonial_btn:hover {
+  background-color: #A28753;
+  color: #fff !important;
+}
+
+p.testimonial_para{
+  font-size: 16px;
+}
